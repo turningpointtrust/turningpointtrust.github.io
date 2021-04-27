@@ -17,12 +17,13 @@ hr {
 }
 
 .navbar-brand .logo {
-    height: 50px;
+    height: 40px;
+    padding: 0 5px;
 }
 
 /* Navbar text colour */
 .navbar a {
-    color: #333;
+    color: #292663;
 }
 
 .navbar li.active a {
@@ -30,7 +31,7 @@ hr {
 }
         
 .navbar .navbar-toggle .icon-bar {
-    background-color: #333;
+    background-color: #f37121;
 }
 
 
@@ -104,14 +105,20 @@ body > footer {
     padding: 25px;
     border-top: 1px solid #333;
 }
-  
+
+/* Socials */
 body > footer img {
     width: 36px;
 }
 
-/* Hide the carousel text when the screen is less than 600 pixels wide */
-/*@media (max-width: 600px) {
-    .carousel-caption {
-        display: none; 
-    }
-}*/
+body > footer img.facebook {
+    filter: brightness(0) saturate(100%) invert(41%) sepia(11%) saturate(2900%) hue-rotate(182deg) brightness(91%) contrast(88%);
+}
+
+body > footer img.youtube {
+    filter: brightness(0) saturate(100%) invert(14%) sepia(62%) saturate(7451%) hue-rotate(357deg) brightness(109%) contrast(120%);
+}
+
+body > footer img.instagram {
+    filter: brightness(0) saturate(100%) invert(35%) sepia(90%) saturate(4279%) hue-rotate(322deg) brightness(92%) contrast(91%);
+}

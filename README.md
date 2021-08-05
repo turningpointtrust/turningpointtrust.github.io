@@ -1,2 +1,2 @@
 # turningpointtrust.github.io
-Hosting for https://turningpointtrust.co.nz/
+Code for https://turningpointtrust.co.nz/
